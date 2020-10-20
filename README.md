@@ -1,0 +1,1 @@
+A calculator with basic math functions. Created as a The Odin Project assignment.
