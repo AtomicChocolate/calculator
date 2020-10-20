@@ -1,0 +1,60 @@
+body {
+    font-family: digital;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    border-radius: 4%;
+}
+
+#container {
+    height: 700px;
+    width: 600px;
+    border-radius: 2%;
+    background-color: darkgray;
+}
+
+#display {
+    white-space: nowrap;
+    overflow: hidden;
+
+    margin: 5px;
+    padding: 0;
+    background-color: gray;
+    font-size: 60px;
+    /* font-family: digital; */
+    border-radius: 6px;
+    border: solid black 1px;
+}
+
+#remove {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 23.5%);
+    grid-template-rows: repeat(1, 100%);
+    column-gap: 11px;
+    row-gap: 11px;
+}
+
+#operations {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 23.5%);
+    grid-template-rows: repeat(4, 68%);
+    column-gap: 11px;
+    row-gap: 11px;
+}
+
+.number {
+    background-color: black;
+}
+
+.operator, .equals, .decimal {
+    background-color: #555;
+}
+
+.clear, .delete {
+    background-color: maroon;
+}
